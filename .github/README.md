@@ -1,6 +1,8 @@
 <h1 align="center">CAIO Roleplay Tutor 🔥</h1>
 
-</p>](https://github.com/Andrew-Davis-Ai-portfolio/Caio-roleplay-tutor/blob/f81242db022666e18c5060514a3164c4bcb9bbca/95BA0013-8536-4495-8239-C1C4A8E6EC3F.png)
+<p align="center">
+  <img src="https://github.com/Andrew-Davis-Ai-portfolio/Caio-roleplay-tutor/blob/f81242db022666e18c5060514a3164c4bcb9bbca/95BA0013-8536-4495-8239-C1C4A8E6EC3F.png?raw=1" width="420"/>
+</p>?raw=1
 
 <p align="center">
   <strong>Command Verified — Flame Integration Framework</strong>
