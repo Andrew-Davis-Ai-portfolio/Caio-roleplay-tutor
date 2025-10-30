@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../95BA0013-8536-4495-8239-C1C4A8...(ADD FILE EXTENSION HERE)" width="400" alt="CAIO Authority Badge - Flame Division (Summit Edition)">
+  <img src="../95BA0013-8536-4495-8239-C1C4A8...([ADD FILE EXTENSION HERE](https://github.com/Andrew-Davis-Ai-portfolio/Caio-roleplay-tutor/blob/13b7c1c8f2663a7a60a70adb02e3faccacffeb07/95BA0013-8536-4495-8239-C1C4A8E6EC3F.png))" width="400" alt="CAIO Authority Badge - Flame Division (Summit Edition)">
 </p>
 
 # CAIO Roleplay Tutor 🔥
