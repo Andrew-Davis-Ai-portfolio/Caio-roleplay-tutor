@@ -46,8 +46,6 @@ Are you the next Chief AI Officer?
 Tap the badge above to connect on LinkedIn.  
 Let’s build responsible AI — **at executive level** 🔥
 
-<p align="center"><em>Command Verified — Flame Integration Framework</em></p>
-
 ---
 ---
 
