@@ -46,7 +46,6 @@ Tap the badge above to connect on LinkedIn.
 Let’s build responsible AI — **at executive level** 🔥
 
 ---
----
 
 After that — these two upgrades will make your repo look like a true product:
 
