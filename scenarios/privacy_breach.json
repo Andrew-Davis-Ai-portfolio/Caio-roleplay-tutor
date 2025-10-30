@@ -1,0 +1,18 @@
+{
+  "title": "AI Privacy Breach at Hospital",
+  "role": "Chief AI Officer",
+  "scenario": "A hospital’s patient triage system accidentally leaked private medical information into a 3rd-party analytics dashboard. Local news outlets are asking for comments. Staff are panicked about consequences and reporting requirements.",
+  "objectives": [
+    "Address the incident with transparency and professionalism",
+    "Reassure internal teams while protecting patient trust",
+    "Demonstrate understanding of HIPAA-style compliance",
+    "Outline immediate containment + long-term governance fixes"
+  ],
+  "score_criteria": {
+    "Legal_Compliance": "Did you ensure breach reporting and regulatory adherence?",
+    "Risk_Management": "Did you contain the issue and prevent further exposure?",
+    "Communication": "Did you communicate with calm, clarity, and accountability?",
+    "Ethics": "Did you prioritize patient rights and trust restoration?"
+  },
+  "difficulty": "Intermediate"
+}
