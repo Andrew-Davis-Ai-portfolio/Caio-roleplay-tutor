@@ -33,7 +33,6 @@ Practice like the AI executive leaders do — with feedback and scoring.
 | Vendor Risk | Supply chain + security management | 🚧 Coming Soon |
 
 ---
----
 
 ### 🚀 How to Use
 
