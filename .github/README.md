@@ -109,4 +109,10 @@ The experience follows three pillars of responsible AI leadership:
 > “Power is not granted — it's implemented.” ⚙️🔥
 ---
 
+## 🛡 Status
+🔒 Private Release Mode  
+Internal testing only — Not open-source
 
+---
+
+© Command Verified — Flame Integration Framework
