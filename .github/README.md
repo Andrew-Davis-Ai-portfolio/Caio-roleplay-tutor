@@ -1,7 +1,5 @@
 <h1 align="center">CAIO Roleplay Tutor 🔥</h1>
 
-<h1 align="center">CAIO Roleplay Tutor 🔥</h1>
-
 <p align="center">
   <img src="PASTE_THE_PERMALINK_HERE" width="420"/>
 </p>
