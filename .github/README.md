@@ -33,7 +33,13 @@ Practice like the **AI executive leaders** do — with feedback and scoring.
 | Vendor Risk | Supply chain + security management | 🚧 Coming Soon |
 
 ---
+---
 
+### 🚀 How to Use
+
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/Andrew-Davis-Ai-portfolio/Caio-roleplay-tutor.git
 ### 💼 Connect & Command
 
 Are you the next Chief AI Officer?
