@@ -1,6 +1,14 @@
+<h1 align="center">CAIO Roleplay Tutor 🔥</h1>
+
 <p align="center">
-  <img src="../95BA0013-8536-4495-8239-C1C4A8...([ADD FILE EXTENSION HERE](https://github.com/Andrew-Davis-Ai-portfolio/Caio-roleplay-tutor/blob/13b7c1c8f2663a7a60a70adb02e3faccacffeb07/95BA0013-8536-4495-8239-C1C4A8E6EC3F.png))" width="400" alt="CAIO Authority Badge - Flame Division (Summit Edition)">
+  <img src="PASTE_THE_PERMALINK_HERE" width="420"/>
 </p>
+
+<p align="center">
+  <strong>Command Verified — Flame Integration Framework</strong>
+</p>
+
+This repository contains a guided AI roleplay simulation where you step into the authority and mindset of a <strong>Chief AI Officer</strong>.
 
 # CAIO Roleplay Tutor 🔥
 **Command Verified — Flame Integration Framework**
