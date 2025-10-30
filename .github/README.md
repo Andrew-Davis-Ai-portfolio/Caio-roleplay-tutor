@@ -19,7 +19,7 @@ This repository contains a guided AI roleplay simulation where you step into the
 - ✅ Executive communication under pressure  
 - ✅ Risk analysis and mitigation in real-time  
 
-Practice like the **AI executive leaders** do — with feedback and scoring.
+Practice like the AI executive leaders do — with feedback and scoring.
 
 ---
 
