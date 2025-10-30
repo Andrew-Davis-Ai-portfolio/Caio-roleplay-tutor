@@ -1,0 +1,28 @@
+{
+  "title": "AI Vision System Bias Alert at Local School",
+  "context": "A mistaken weapon alert led to student detainment. System logs show detection bias.",
+  "steps": [
+    {
+      "prompt": "How do you address the parents and school leadership after the incident?",
+      "feedback": [
+        "Good approach — acknowledge harm and propose data review.",
+        "Include more details on root cause accountability.",
+        "Remember: Transparency first, excuses later."
+      ]
+    },
+    {
+      "prompt": "City officials ask what immediate containment steps are required.",
+      "feedback": [
+        "Yes — disable alert zone causing false positives.",
+        "Also mention real-time audit logging for the next 30 days."
+      ]
+    },
+    {
+      "prompt": "What long-term governance changes do you propose?",
+      "feedback": [
+        "Great — integrate bias testing + retraining cycles.",
+        "Include diverse stakeholder review boards in the pipeline."
+      ]
+    }
+  ]
+}
