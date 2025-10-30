@@ -94,10 +94,6 @@ Are you the next Chief AI Officer?
 Tap the badge above to connect on LinkedIn.  
 Let’s build responsible AI — **at executive level** 🔥
 
-<p align="center">
-  <strong>Command Verified — Flame Integration Framework</strong>
-</p>
-
 This repository contains a guided AI roleplay simulation where you step into the authority and mindset of a <strong>Chief AI Officer</strong>.
 
 The experience follows three pillars of responsible AI leadership:
