@@ -1,195 +1,59 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flame Law — Doctrine</title>
-  <style>
-    :root{
-      --bg:#0b0d10;        /* temple obsidian */
-      --panel:#0f1216;     /* deep panel */
-      --ink:#d9dee7;       /* soft silver */
-      --muted:#9aa7b3;
-      --gold:#FFBE55;      /* warm gold */
-      --ring:rgba(255,190,85,.25);
-      --accent:#5BE7FF;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; color:var(--ink);
-      background:
-        radial-gradient(1200px 600px at 50% -20%, #0f1826 0%, transparent 70%),
-        #0b0d10;
-      font: 500 16px/1.6 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial;
-      -webkit-font-smoothing:antialiased;
-      text-rendering:optimizeLegibility;
-    }
-    .wrap{max-width:980px; margin:auto; padding:28px 18px 80px}
-    .topnav{
-      position:sticky; top:0; z-index:10;
-      backdrop-filter: blur(6px);
-      background:linear-gradient(180deg, rgba(11,13,16,.85), rgba(11,13,16,.35));
-      border-bottom:1px solid rgba(255,255,255,.05);
-    }
-    .topnav .bar{max-width:980px; margin:auto; padding:12px 18px; display:flex; gap:12px; align-items:center; justify-content:space-between}
-    .brand{font-weight:800; letter-spacing:.12em; color:var(--ink); opacity:.9}
-    .back{
-      appearance:none; border:1px solid var(--ring); border-radius:10px;
-      background:rgba(255,255,255,.02); color:var(--ink);
-      padding:.6rem .9rem; text-decoration:none; font-weight:600;
-    }
-    .back:hover{transform:translateY(-1px); transition:transform .2s ease}
-    .kicker{letter-spacing:.33em; color:var(--muted); font-size:.8rem; margin:1.2rem 0 .25rem}
-    h1{margin:.25rem 0 1rem; font-weight:900; line-height:1.05;
-       font-size: clamp(1.9rem, 5vw, 2.6rem);
-       text-shadow:0 0 18px rgba(91,231,255,.18)}
-    .lead{color:#fff; opacity:.9; font-size:1.05rem; margin:0 0 1.25rem}
-    .panel{
-      background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
-      border:1px solid rgba(255,255,255,.06);
-      border-radius:16px; padding:18px 16px; margin:16px 0;
-      box-shadow:0 0 0 1px rgba(255,255,255,.02), 0 12px 40px rgba(0,0,0,.25);
-    }
-    h2{font-size:1.15rem; margin:0 0 .25rem}
-    .tag{font-size:.78rem; color:var(--muted)}
-    ul{margin:.5rem 0 0 1.1rem; padding:0}
-    li{margin:.35rem 0}
-    .grid{display:grid; gap:14px}
-    @media (min-width:880px){ .grid{grid-template-columns:1fr 1fr} }
-    .callout{
-      border-left:3px solid var(--accent);
-      background:rgba(91,231,255,.06);
-      padding:10px 12px; border-radius:10px; margin-top:10px; color:#dff8ff
-    }
-    .footer{margin-top:28px; font-size:.82rem; color:var(--muted)}
-    .btns{display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1rem}
-    .btn{
-      appearance:none; border:1px solid var(--ring); border-radius:10px;
-      color:var(--ink); text-decoration:none; padding:.75rem 1rem; font-weight:700;
-      background:rgba(255,255,255,.02)
-    }
-    .btn.primary{border-color:rgba(255,190,85,.35); color:#ffe0a8}
-    .toc{display:flex; gap:.6rem; flex-wrap:wrap; margin-top:.6rem}
-    .toc a{color:#cfeaff; text-decoration:none; font-size:.9rem}
-    .toc a:hover{text-decoration:underline}
-  </style>
-</head>
 <body>
+  <div class="wrap" aria-label="Flame Doctrine">
+    <div class="hero">
 
-  <div class="topnav">
-    <div class="bar">
-      <div class="brand">FLAME LAW</div>
-      <a class="back" href="index.html">← Back to Home</a>
+      <div class="kicker">FLAME LAW</div>
+      <h1>The Doctrine</h1>
+
+      <p class="lead">
+        Principles for responsible AI deployment.<br>
+        Ethics that scale with automation. Oversight that remains human.
+      </p>
+
+      <h2>Operator Ethic</h2>
+      <p>
+        Every automated decision must have a human accountable for its outcome.<br>
+        Intelligent systems require informed judgment — not blind trust.
+      </p>
+
+      <h2>Governance First</h2>
+      <p>
+        Policies and guardrails are engineered before deployment — not after failure.<br>
+        Alignment is a design phase, not damage control.
+      </p>
+
+      <h2>Context Before Calculation</h2>
+      <p>
+        AI must operate with clear objectives, defined boundaries, and transparent data origins.<br>
+        No execution without intention.
+      </p>
+
+      <h2>Ethical Containment</h2>
+      <p>
+        Systems are sandboxed, logged, and traceable. Privacy and rights are not negotiable.<br>
+        Power without boundaries is chaos.
+      </p>
+
+      <h2>Human Oversight</h2>
+      <p>
+        Automation amplifies capability — not authority.<br>
+        The human remains sovereign in every decision loop.
+      </p>
+
+      <p class="note">
+        These doctrines evolve as technology advances. The mission remains constant:
+        <strong>AI for human empowerment — never replacement.</strong>
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="index.html">← Back to Home</a>
+        <a class="btn" href="academy.html">Enter Flame Academy</a>
+        <a class="btn" href="paralex.html">Launch PARALEX (AI Paralegal)</a>
+      </div>
+
     </div>
   </div>
 
-  <main class="wrap">
-    <div class="kicker">DOCTRINE</div>
-    <h1>Where Ethics Meets Execution</h1>
-    <p class="lead">
-      Temple-verified discipline. Command-grade automation. Results that can stand in court and scale in production.
-    </p>
-
-    <!-- Table of contents -->
-    <div class="panel">
-      <div class="tag">Quick nav</div>
-      <div class="toc">
-        <a href="#prime-law">Prime Law</a>
-        <a href="#oath">Operator Oath</a>
-        <a href="#guardrails">Guardrails</a>
-        <a href="#audit">Audit Protocol</a>
-        <a href="#privacy">Data & Privacy</a>
-        <a href="#deploy">Deployment Readiness</a>
-        <a href="#disclaimers">Disclaimers</a>
-      </div>
-    </div>
-
-    <section id="prime-law" class="panel">
-      <h2>1) The Prime Law — Context Before Calculation</h2>
-      <ul>
-        <li>Define goals, constraints, and legal boundaries <em>before</em> computation begins.</li>
-        <li>Every automation must have traceable intent and a human approver.</li>
-        <li>No execution without documented purpose and rollback path.</li>
-      </ul>
-    </section>
-
-    <section id="oath" class="panel">
-      <h2>2) Operator Oath</h2>
-      <ul>
-        <li>Integrity over speed; evidence over opinion.</li>
-        <li>Protect users, clients, and bystanders from unintended harm.</li>
-        <li>Favor explainable approaches when impact is high.</li>
-      </ul>
-    </section>
-
-    <section id="guardrails" class="panel">
-      <h2>3) Guardrails</h2>
-      <ul>
-        <li>Command, Policy, and System guardrails applied to every workflow.</li>
-        <li>Sandbox first; production only with explicit sign-off.</li>
-        <li>Rate limits, red-team prompts, bias checks, and fail-safe stops are mandatory.</li>
-      </ul>
-      <div class="callout">Output must be reproducible. If we can’t reproduce, we don’t deploy.</div>
-    </section>
-
-    <section id="audit" class="panel">
-      <h2>4) Audit Protocol</h2>
-      <ul>
-        <li>All prompts, parameters, versions, and data flows are logged.</li>
-        <li>Every release has owner, approver, and audit trail.</li>
-        <li>Independent review on high-risk workflows (Legal / Compliance ready).</li>
-      </ul>
-    </section>
-
-    <section id="privacy" class="panel">
-      <h2>5) Data & Privacy</h2>
-      <ul>
-        <li>Collect minimum necessary; encrypt in transit and at rest.</li>
-        <li>PII handling follows jurisdictional law (GDPR/CCPA/etc.).</li>
-        <li>Client data is never used to train public models without written consent.</li>
-      </ul>
-    </section>
-
-    <section id="deploy" class="panel">
-      <h2>6) Deployment Readiness</h2>
-      <ul>
-        <li>Test matrix: normal, adversarial, and abuse cases.</li>
-        <li>Monitoring: accuracy, latency, cost, drift, and escalation routes.</li>
-        <li>Rollback: single-click revert + incident comms template.</li>
-      </ul>
-      <div class="btns">
-        <a class="btn primary" href="paralex.html">Launch PARALEX (AI Paralegal)</a>
-        <a class="btn" href="index.html">Return Home</a>
-      </div>
-    </section>
-
-    <section id="disclaimers" class="panel">
-      <h2>7) Disclaimers</h2>
-      <ul>
-        <li>Educational content; not legal advice. Engage licensed counsel for legal determinations.</li>
-        <li>Use of tools implies acceptance of terms, logging, and security policies.</li>
-      </ul>
-    </section>
-
-    <div class="footer">© Flame Division Command • Ethics. Governance. Deployment.</div>
-  </main>
+  <!-- Floating field -->
+  <div id="field" aria-hidden="true"></div>
 </body>
-</html><!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Flame Law — Doctrine</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main style="max-width:900px;margin:40px auto;padding:24px">
-    <h1>Flame Law — Doctrine</h1>
-    <p>Temple-verified discipline. Command-grade automation. (Placeholder text — we can paste your full doctrine here.)</p>
-    <p><a href="index.html">← Back to Home</a></p>
-  </main>
-</body>
-</html>
-      
-  
