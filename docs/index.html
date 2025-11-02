@@ -67,26 +67,6 @@
   @supports(padding:max(0px)) {
     .hero{padding-left:max(20px, env(safe-area-inset-left)); padding-right:max(20px, env(safe-area-inset-right));}
   }
-</style>
-</head>
-<body>
-<div class="wrap" aria-label="Animated banner with floating glyphs">
-  <div class="hero">
-    <div class="kicker">FLAME LAW</div>
-    <h1>Where Ethics Meets Execution</h1>
-    <p class="sub">Temple-verified discipline. Command-grade automation. Results that can stand in court and scale in production.</p>
-    <div class="cta">
-      <a class="btn" href="#doctrine">Read the Doctrine</a>
-      <a class="btn" href="#academy">Enter Flame Academy</a>
-      <a class="btn" href="#paralex">Launch PARALEX (AI Paralegal)</a>
-    </div>
-    <div class="note">Mobile-ready · No Java required · iPhone optimized</div>
-  </div>
-
-  <!-- Floating field -->
-  <div class="field" id="field" aria-hidden="true"></div>
-</div>
-
   /* ------ Floating glyphs (home only) ------ */
 .glyphs{
   position: fixed; inset: 0; overflow: hidden;
@@ -109,7 +89,27 @@
   .glyphs { display:none; }
 }
 .wrap, .hero { position: relative; z-index: 1; }
-  <script>
+</style>
+</head>
+<body>
+<div class="wrap" aria-label="Animated banner with floating glyphs">
+  <div class="hero">
+    <div class="kicker">FLAME LAW</div>
+    <h1>Where Ethics Meets Execution</h1>
+    <p class="sub">Temple-verified discipline. Command-grade automation. Results that can stand in court and scale in production.</p>
+    <div class="cta">
+      <a class="btn" href="#doctrine">Read the Doctrine</a>
+      <a class="btn" href="#academy">Enter Flame Academy</a>
+      <a class="btn" href="#paralex">Launch PARALEX (AI Paralegal)</a>
+    </div>
+    <div class="note">Mobile-ready · No Java required · iPhone optimized</div>
+  </div>
+
+  <!-- Floating field -->
+  <div class="field" id="field" aria-hidden="true"></div>
+</div>
+
+   <script>
 /* Minimal JS to sprinkle floating glyphs (works on iPhone Safari) */
 const GLYPHS = [
   "𐤀","𐤁","𐤂","∴","✦","✧","✺","✹","☉","☾","⌽","⟡","⟐","ᚠ","ᛟ","₪","ℵ",
