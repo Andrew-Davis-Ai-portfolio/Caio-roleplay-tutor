@@ -13,13 +13,18 @@
     --glow: drop-shadow(0 0 .45rem rgba(255,183,107,.9))
             drop-shadow(0 0 .9rem rgba(212,175,55,.5));
   }
-  
-  /* put the glyph field behind & ignore taps */
-#field{ position:fixed; inset:0; z-index:1; pointer-events:none; }
-#field *{ pointer-events:none; }
-
-/* keep the content above it */
-.wrap, .hero{ position:relative; z-index:2; }
+  /* Floating glyph field behind everything */
+#field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+/* Ensure main content stays on top */
+.wrap, .hero {
+  position: relative;
+  z-index: 2;
+}
   *{box-sizing:border-box}
   html,body{height:100%;margin:0;background:radial-gradient(1200px 600px at 50% 10%, #121722 0%, #0b0e13 60%, #070a0f 100%); color:#e9edf6; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial;}
   .wrap{position:relative; min-height:100%; overflow:hidden;}
