@@ -1,12 +1,73 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Flame Academy</title>
-<link rel="stylesheet" href="style.css" />
-</head><body>
-<main style="max-width:900px;margin:40px auto;padding:24px">
-  <h1>Flame Academy</h1>
-  <p>Training hub coming online. Curriculum, modules, and enroll links will drop here.</p>
-  <p><a href="index.html">← Back to Home</a></p>
-</main>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flame Academy — Command Track</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Page title & layout */
+    .wrap{position:relative; min-height:100vh; overflow:hidden;}
+    .hero{position:relative; z-index:1; text-align:center; padding:64px 16px 28px; max-width:920px; margin:auto;}
+    .kicker{letter-spacing:.25em; font-size:.8rem; opacity:.8; color:#9aa7b3;}
+    h1{margin:.35rem 0 1rem; font-weight:800; line-height:1.06;
+       font-size:clamp(1.8rem,4.5vw,3.4rem);
+       background:linear-gradient(180deg,#ffb76b,#d4af37);
+       -webkit-background-clip:text; background-clip:text; color:transparent;
+       filter: drop-shadow(0 0 .45rem rgba(255,183,107,.9)) drop-shadow(0 0 .9rem rgba(212,175,55,.5));}
+    .lead{opacity:.9; font-size:clamp(1rem,2.1vw,1.25rem); color:#d0d7e0;}
+    .cta{margin:2rem auto 2.5rem; display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap}
+    .btn{appearance:none; border:1px solid rgba(212,175,55,.5); background:rgba(0,0,0,.25);
+         padding:.9rem 1.15rem; border-radius:10px; text-decoration:none; font-weight:700;
+         color:#ffe7b8; box-shadow:0 0 0 rgba(0,0,0,0); transition:transform .2s ease, background .2s ease, box-shadow .2s ease}
+    .btn:hover{transform:translateY(-1px); background:rgba(20,20,20,.45); box-shadow:0 12px 26px rgba(0,0,0,.15)}
+    .note{font-size:.85rem; opacity:.7; margin-top:.6rem; text-align:center}
+    /* Floating glyphs (same as home) */
+    #field{position:fixed; inset:0; z-index:0; pointer-events:none;}
+    .glyph{position:absolute; font:700 14px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+           color:#5BE7FF; opacity:.85; filter:drop-shadow(0 0 8px rgba(91,231,255,.35))}
+    @keyframes driftUp{0%{transform:translateY(8vh) rotate(0); opacity:0}
+      10%{opacity:.95} 100%{transform:translateY(-110vh) rotate(360deg); opacity:0}}
+    @media (prefers-reduced-motion: reduce){ #field{display:none;} }
+  </style>
+</head>
+<body>
+  <div class="wrap" aria-label="Flame Academy">
+    <div class="hero">
+      <div class="kicker">FLAME ACADEMY</div>
+      <h1>Command Track</h1>
+      <p class="lead">Executive training for CAIO-grade governance, ethics, deployment, and automation that stands in court and scales in production.</p>
+
+      <div class="cta">
+        <a class="btn" href="index.html">← Back to Home</a>
+        <a class="btn" href="doctrine.html">Read the Doctrine</a>
+        <a class="btn" href="paralex.html">Launch PARALEX (AI Paralegal)</a>
+      </div>
+
+      <p class="note">Mobile-ready · No Java required · iPhone optimized</p>
+    </div>
+  </div>
+
+  <!-- Floating field -->
+  <div id="field" aria-hidden="true"></div>
+
+  <script>
+    /* Minimal JS to sprinkle floating glyphs */
+    const GLYPHS = ["✠","Ϟ","Ψ","1","∴","·","*","◦","✧","°","✹","○","(",")","Φ","₪","⋆","✶","Δ","Ω","Ψ","Φ","∞","∑","★","✦","✱","•",
+                    "N—U","RE","GE","SI","9","36","365","26K"];
+    const field = document.getElementById('field');
+    const N = 46;
+    function spawn(i){
+      const s = document.createElement('div');
+      s.className = 'glyph';
+      s.textContent = GLYPHS[Math.floor(Math.random()*GLYPHS.length)];
+      s.style.left = Math.floor(Math.random()*100)+'%';
+      s.style.bottom = (-10 + Math.random()*15) + 'vh';
+      s.style.animation = `driftUp ${12 + Math.random()*18}s linear ${Math.random()*8}s infinite`;
+      field.appendChild(s);
+      s.addEventListener('animationend', () => { s.remove(); spawn(i); }, {once:true});
+    }
+    for(let i=0;i<N;i++) spawn(i);
+  </script>
+</body>
+</html>
