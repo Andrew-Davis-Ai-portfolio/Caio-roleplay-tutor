@@ -87,6 +87,29 @@
   <div class="field" id="field" aria-hidden="true"></div>
 </div>
 
+  /* ------ Floating glyphs (home only) ------ */
+.glyphs{
+  position: fixed; inset: 0; overflow: hidden;
+  pointer-events: none; z-index: 0;
+}
+.glyphs .g{
+  position: absolute;
+  font: 700 14px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--accent, #5BE7FF);
+  opacity: .85;
+  filter: drop-shadow(0 0 8px rgba(91,231,255,.35));
+  will-change: transform, opacity;
+}
+@keyframes driftUp {
+  0%   { transform: translateY(8vh) rotate(0deg); opacity: 0; }
+  10%  { opacity: .95; }
+  100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce){
+  .glyphs { display:none; }
+}
+.wrap, .hero { position: relative; z-index: 1; }
+  
 <script>
 /* Minimal JS to sprinkle floating glyphs (works on iPhone Safari) */
 const GLYPHS = [
