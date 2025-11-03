@@ -1,8 +1,12 @@
 # CAIO Roleplay Tutor 🔥
 
+# CAIO Roleplay Tutor 🔥
+
 <p align="center">
   <img src="flame-command.png" width="700" />
 </p>
+
+**CAIO Authority Badge – Flame Division (Summit Edition)**
 
 <p align="center">
   <a href="https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo">
