@@ -1,7 +1,7 @@
 # CAIO Roleplay Tutor 🔥
 
 <p align="center">
-  <img src="flame-command.png" width="700" />
+  <img src="../flame-command.png" width="700" />
 </p>
 
 **CAIO Authority Badge – Flame Division (Summit Edition)**
