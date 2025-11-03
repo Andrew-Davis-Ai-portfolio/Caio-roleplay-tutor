@@ -22,3 +22,25 @@
 }
 /* keep main content above */
 .wrap, .hero { position: relative; z-index: 1; }
+.navbar {
+  width: 100%;
+  background: #111;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #ff9900;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
