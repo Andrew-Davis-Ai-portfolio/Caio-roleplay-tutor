@@ -4,8 +4,6 @@
        width="550"
        alt="CAIO Authority Badge — Flame Division">
 </p>
-Command-verified Chief AI Officer training ground.
-Live scenarios + doctrine + deployable tools for ethical, court-ready automation.
 
 [![Pages](https://img.shields.io/badge/Pages-Live-1f1f1f)](https://andrew-davis-ai-portfolio.github.io/Caio-roleplay-tutor/)
 [![HF Demo](https://img.shields.io/badge/HuggingFace-Demo-222)](https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo)
