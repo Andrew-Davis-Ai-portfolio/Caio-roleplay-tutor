@@ -1,16 +1,19 @@
 # CAIO Roleplay Tutor 🔥
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Andrew-Davis-AI-portfolio/Caio-roleplay-tutor/main/flame-command.png"
-       width="550"
-       alt="CAIO Authority Badge — Flame Division">
+  <img src="./flame-command.png" width="700" />
 </p>
 
-[![Pages](https://img.shields.io/badge/Pages-Live-1f1f1f)](https://andrew-davis-ai-portfolio.github.io/Caio-roleplay-tutor/)
-[![HF Demo](https://img.shields.io/badge/HuggingFace-Demo-222)](<p align="center">
+<p align="center">
+  <strong>CAIO Authority Badge</strong> – Flame Division (Summit Edition)
+</p>
+
+<p align="center">
   <a href="https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo">
     <img src="https://img.shields.io/badge/Launch%20KSM%20Lab%20Demo-🔥%20Live%20HF%20Space-black?style=for-the-badge&logo=huggingface&logoColor=white">
   </a>
 </p>
+
 ---
 
 ## 🔗 Quick Links
