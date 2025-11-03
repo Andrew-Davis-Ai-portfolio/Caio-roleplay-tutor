@@ -2,8 +2,8 @@
 Command-verified Chief AI Officer training ground.  
 Live scenarios + doctrine + deployable tools for ethical, court-ready automation.
 
-[![Pages](https://img.shields.io/badge/Pages-Live-1f1f1f)](https://<YOUR_USER>.github.io/<YOUR_REPO>/)
-[![HF Demo](https://img.shields.io/badge/HuggingFace-Demo-222)](https://huggingface.co/spaces/<space>)
+[![Pages](https://img.shields.io/badge/Pages-Live-1f1f1f)]([https://<YOUR_USER>.github.io/<YOUR_REPO>/)]https://Andrew-Davis-AI-portfolio.github.io/Andrew-Davis-AI-portfolio/)
+[![HF Demo]([https://img.shields.io/badge/HuggingFace-Demo-222](https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo))](https://huggingface.co/spaces/<space>)
 [![License: MIT](https://img.shields.io/badge/License-MIT-222.svg)](LICENSE)
 
 ---
