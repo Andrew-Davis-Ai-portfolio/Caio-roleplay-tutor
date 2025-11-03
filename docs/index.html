@@ -101,6 +101,22 @@
   .glyphs { display:none; }
 }
 .wrap, .hero { position: relative; z-index: 1; }
+  .glow {
+  color: #00E7FF;
+  text-shadow:
+    0 0 8px #00E7FF,
+    0 0 20px #00A8CC,
+    0 0 30px rgba(0, 231, 255, 0.7),
+    0 0 45px rgba(0, 231, 255, 0.5);
+  transition: 0.3s ease;
+}
+
+.glow:hover {
+  text-shadow:
+    0 0 12px #00E7FF,
+    0 0 27px #00A8CC,
+    0 0 55px rgba(0, 231, 255, 0.85);
+}
 </style>
 </head>
 <body>
