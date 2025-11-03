@@ -6,8 +6,6 @@
 
 **CAIO Authority Badge – Flame Division (Summit Edition)**
 
-**CAIO Authority Badge – Flame Division (Summit Edition)**
-
 <p align="center">
   <a href="https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo">
     <img src="https://img.shields.io/badge/Launch%20KSM%20Lab%20Demo-🔥%20Live%20HF%20Space-black?style=for-the-badge&logo=huggingface&logoColor=white">
