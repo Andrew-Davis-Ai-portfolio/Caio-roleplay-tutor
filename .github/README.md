@@ -1,4 +1,4 @@
-# CAIO Roleplay Tutor 🔥
+[# CAIO Roleplay Tutor 🔥
 Command-verified Chief AI Officer training ground.  
 Live scenarios + doctrine + deployable tools for ethical, court-ready automation.
 
@@ -39,3 +39,4 @@ No build step. Open `/docs/index.html` in a browser or enable **GitHub Pages** (
 
 ## 📜 License
 MIT — see [LICENSE](LICENSE).
+](https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo)
