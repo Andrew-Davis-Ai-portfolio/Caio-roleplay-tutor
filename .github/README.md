@@ -6,9 +6,11 @@
 </p>
 
 [![Pages](https://img.shields.io/badge/Pages-Live-1f1f1f)](https://andrew-davis-ai-portfolio.github.io/Caio-roleplay-tutor/)
-[![HF Demo](https://img.shields.io/badge/HuggingFace-Demo-222)](https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-222.svg)](LICENSE)
-
+[![HF Demo](https://img.shields.io/badge/HuggingFace-Demo-222)](<p align="center">
+  <a href="https://huggingface.co/spaces/PFlame999/KSM-Lab-Demo">
+    <img src="https://img.shields.io/badge/Launch%20KSM%20Lab%20Demo-🔥%20Live%20HF%20Space-black?style=for-the-badge&logo=huggingface&logoColor=white">
+  </a>
+</p>
 ---
 
 ## 🔗 Quick Links
