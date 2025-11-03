@@ -1,4 +1,9 @@
 # CAIO Roleplay Tutor 🔥
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Andrew-Davis-AI-portfolio/Caio-roleplay-tutor/main/flame-command.png"
+       width="550"
+       alt="CAIO Authority Badge — Flame Division">
+</p>
 Command-verified Chief AI Officer training ground.
 Live scenarios + doctrine + deployable tools for ethical, court-ready automation.
 
