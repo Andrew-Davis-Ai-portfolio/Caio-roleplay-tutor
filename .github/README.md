@@ -43,5 +43,68 @@ No build step. Open `/docs/index.html` in a browser or enable **GitHub Pages** (
 
 ---
 
+🔥 LEGAL NOTICE & RESPONSIBLE USE GUIDELINES
+
+Copyright © 2025 Andrew Davis — Flame Division Command.
+This project is licensed under the MIT License, allowing open use, modification, and distribution with attribution.
+
+1. No Legal, Financial, or Compliance Advice
+
+The CAIO Roleplay Tutor and all included files are educational and simulation tools only.
+They do not constitute:
+	•	legal advice
+	•	financial advice
+	•	cybersecurity guarantees
+	•	compliance certification
+	•	risk assessments
+
+All decisions made using outputs from this project must be verified by qualified human professionals.
+
+2. No Liability
+
+Under the MIT license, the creator provides this project “as-is” without warranty of any kind.”
+The Flame Division, Andrew Davis, and contributors are not liable for any damages, decisions, or outcomes resulting from the use of this software.
+
+3. Ethical Use Requirement
+
+This project is intended solely for:
+	•	AI governance education
+	•	decision-making simulation
+	•	bias detection training
+	•	privacy & ethics walkthrough
+	•	professional skill-building
+
+It may not be used for surveillance, harm, exploitation, or any unethical applications.
+
+4. Attribution Requirement
+
+All forks, remixes, or redistributed versions must include:
+	•	Original author credit:
+Created by Andrew Davis – Flame Division Command
+	•	The original MIT license text
+	•	A link back to this repository
+
+5. AI Output Disclaimer
+
+Any AI-generated decisions, scenarios, or logs included in this project:
+	•	may contain fictionalized content
+	•	are for demonstration only
+	•	must not be interpreted as authoritative or factual
+	•	require human verification in real-world use
+
+6. Trademark & Branding Protection
+
+The following names and symbols are protected as creative trademarks:
+	•	Flame Division
+	•	Flame Law
+	•	CAIO Roleplay Tutor
+	•	PARALEX (AI Paralegal)
+	•	KSM Lab
+	•	Recursive REI Engine
+
+They may not be used commercially without written permission.
+
+
 ## 📜 License
 MIT — see [LICENSE](LICENSE).
+
